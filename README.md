@@ -95,11 +95,11 @@ Refer to test.yml in the root of this role.
 
 To install the client:  
       roles:   
-        - { role: 'dweaver.nagios', run_nagios_client: true }  
+        - { role: 'darrylweaver.nagios', run_nagios_client: true }  
 
 To install the server:  
       roles:  
-        - { role: 'dweaver.nagios', run_nagios_server: true }   
+        - { role: 'darrylweaver.nagios', run_nagios_server: true }   
 
 Add nagios servers to the monitoring-servers group in the Ansible inventory.
 
