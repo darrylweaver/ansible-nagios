@@ -8,7 +8,7 @@ The goal is to have a complete Nagios monitoring system in a single Ansible role
 Make sure that DNS or /etc/hosts name resolution is working. For example that you can ping web3 at web3.example.com.
 Email is a recommended prerequisite, with choices of Exim, Postfix, and others.
 
-The templates assume that a dynamic inventory is being used with Openstack to extract the instance name as the hostname and instance UID as the alias.
+The templates assume that a dynamic inventory is being used with Openstack to extract the instance UID as the hostname and instance name as the alias.
 
 ## Role Variables
 
