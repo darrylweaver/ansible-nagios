@@ -1,6 +1,6 @@
 galaxy_info:
-  author: sdarwin
-  description: Install Nagios 4.x on Ubuntu or CentOS
+  author: dweaver
+  description: Install Nagios 4.x on Ubuntu or CentOS, with Openstack dynamic inventory.
   license: BSD
   min_ansible_version: 1.9
   platforms:

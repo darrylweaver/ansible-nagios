@@ -6,7 +6,9 @@ The goal is to have a complete Nagios monitoring system in a single Ansible role
 # Prerequisites
 
 Make sure that DNS or /etc/hosts name resolution is working. For example that you can ping web3 at web3.example.com.
-Email is a recommended prerequisite, with choices of Exim, Postfix, and others.  
+Email is a recommended prerequisite, with choices of Exim, Postfix, and others.
+
+The templates assume that a dynamic inventory is being used with Openstack to extract the instance name as the hostname and instance UID as the alias.
 
 ## Role Variables
 
@@ -93,11 +95,11 @@ Refer to test.yml in the root of this role.
 
 To install the client:  
       roles:   
-        - { role: 'sdarwin.nagios', run_nagios_client: true }  
+        - { role: 'dweaver.nagios', run_nagios_client: true }  
 
 To install the server:  
       roles:  
-        - { role: 'sdarwin.nagios', run_nagios_server: true }   
+        - { role: 'dweaver.nagios', run_nagios_server: true }   
 
 Add nagios servers to the monitoring-servers group in the Ansible inventory.
 
@@ -107,6 +109,6 @@ BSD
 
 ## Author Information
 
-By Sam Darwin, 2016. Based on pre-existing roles, see ACKNOWLEDGEMENTS.md file.
+By Darryl Weaver, 2017. Based on pre-existing roles, see ACKNOWLEDGEMENTS.md file.
 Feedback and bug reports welcome.
 

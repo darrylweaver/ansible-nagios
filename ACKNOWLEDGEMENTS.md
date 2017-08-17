@@ -6,4 +6,5 @@ https://github.com/npm/ansible-nagios-config - Benjamin E. Coe
 https://github.com/schubergphilis/nrpe    
 https://github.com/schubergphilis/nagios    
 https://github.com/chef-cookbooks/users   
-https://github.com/mivok/ansible-users   
+https://github.com/mivok/ansible-users
+https://github.com/sdarwin/ansible-nagios   
